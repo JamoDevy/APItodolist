@@ -8,14 +8,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
     <script src="index.js"></script>
   </head>
   <body>
+    <div class="header">
+        <h1>Near Earth Objects To Do List</h1>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h2>To Do List</h2>
+          <h2>Tasks to Complete</h2>
+            <div id="todo-list">
 
+            </div>
+            <form id="create-task">
+                <input id="new-task-content" type="text" placeholder="new task" required/>
+                <button>Create</button>
+              </form>
         </div>
       </div>
     </div>

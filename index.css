@@ -1,4 +1,46 @@
 /*index.css*/
 h2 {
-    color: blue;
+    color: rgb(179, 199, 223);
+    text-decoration: underline;
+    margin-top: 10px;
   }
+
+  .delete {
+    margin-right: 5px;
+    margin-left: 150px;
+  }
+
+#todo-list {
+    color: red;
+}
+
+body {
+    background-image: url('images/2474215.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+    background-size: auto;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.row {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.container {
+    background-color: rgb(65, 38, 38);
+    border-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+#create-task {
+    margin-top: 15px;
+}
